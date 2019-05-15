@@ -1,8 +1,8 @@
 @ECHO OFF
 :: Simple attempt-to-auto-fix-my-network script, by Jake.
-:: This script will attempt to fix your networking issues. It will restart your PC. Please run as admin to achieve desired goals.
 
 echo This script will attempt to fix your networking issues. It will restart your PC. Please run as admin to achieve desired goals.
+
 ping -n 5 127.0.0.1 >nul
 ipconfig /flushdns
 ping -n 5 127.0.0.1 >nul
